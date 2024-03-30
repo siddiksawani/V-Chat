@@ -10,7 +10,7 @@ from gtts import gTTS
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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"
+openai.api_key = "" #open ai api here
 
 @app.route('/api/receive-user-input', methods=['POST'])
 def receive_user_input():
